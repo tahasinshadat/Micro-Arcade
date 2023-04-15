@@ -1,0 +1,54 @@
+.hoverer {
+    opacity: 1;
+}
+
+.GAME-BAR {
+    background: black !important;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    grid-auto-rows: minmax(15vw, auto);
+}
+
+.wrapper > div {
+    color: white ;
+    border: 3px black solid;
+    margin: 1vw;
+}
+
+/* Snake */
+.game1 {
+    background: turquoise;
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+
+/* Flappy */
+.game2 {
+    background: rgb(57, 228, 57);
+    grid-row: 1;
+    grid-column: 3;
+}
+
+/* TicTac */
+.game3 {
+    background: red;
+    grid-row: 2;
+    grid-column: 3;
+}
+
+/* Pong */
+.game4 {
+    background: orchid;
+    grid-row: 3/5;
+}
+
+/* Runner */
+.game5 {
+    background: navy;
+    grid-row: 3/5;
+    grid-column: 2/4;
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hoverer {
+    opacity: 1;
+}
+
+.GAME-BAR {
+    background: black !important;
+}
+
+canvas {
+    display: block;
+    background: rgb(160,254,255);
+    background: linear-gradient(0deg, rgba(160,254,255,1) 0%, rgba(36,115,249,1) 100%);
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 5vw;
+}
+
+img {
+    border: 2px solid black !important; 
+}
